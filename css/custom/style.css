@@ -1,0 +1,39 @@
+#token-board {
+    font-size: 0px;
+    font-weight: 0px;
+    border: 5px solid #1e82ee;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+#token-board img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+}
+
+.token {
+    width: 89px;
+    height: 89px;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+#drop-token img {
+    position: relative;
+    top: -5px;
+    left: 0px;
+
+    transition: top 0.25s ease-in;
+}
+
+.line-break {
+    display: block;
+}
